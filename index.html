@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <form name="form1">
+        <div class="mainCalc">
+            <div class="screenCalc">
+                <p id="result">0</p>
+            </div>
+            <div class="bodyCalc">
+                <div class="Group1">
+                    <input type="button" value="C" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="." class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="←" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="7" class="clacclass" onclick="calculator(this.value) ">
+                    <input type="button" value="8" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="9" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="4" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="5" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="6" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="1" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="2" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="3" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="0" style="width: 196px;" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="%" class="clacclass" onclick="calculator(this.value)">
+
+                </div>
+                <div class="Group2">
+                    <input type="button" value="/" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="*" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="-" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="+" class="clacclass" onclick="calculator(this.value)">
+                    <input type="button" value="=" class="clacclass" onclick="result()">
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="calc.js"></script>
+</body>
+
+</html>

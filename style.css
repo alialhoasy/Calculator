@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+}
+
+.mainCalc {
+    background-color: #2c3e50;
+    height: 500px;
+    width: 400px;
+    margin: 60px auto;
+    position: relative;
+}
+
+.screenCalc {
+    height: 100px;
+    background-color: #fff;
+    border: 1px dashed;
+    position: relative;
+}
+
+.bodyCalc {
+    display: inline-flex;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.clacclass {
+    font-size: 31px;
+    height: 76px;
+    width: 96px;
+}
+
+#result {
+    font-size: 38px;
+    padding: 28px 7px;
+    text-align: right;
+}
